@@ -4,7 +4,7 @@ import res from '../../assets/restaurant.png'
 import spam from '../../assets/spam.png'
 import mask from '../../assets/facemask.png'
 import blog from '../../assets/blog.png'
-
+import social from '../../assets/social.png'
 
 const works = () => {
   return (
@@ -52,6 +52,26 @@ Development Tools: Visual Studio Code, GitHub</p>
           View on GitHub
         </a><a href="https://vallabhpatil777.pythonanywhere.com" rel="noreferrer" target="_blank" className="githubButton">
           View Project
+        </a>
+        </div>
+        </div>
+    </div>
+    <div className='workBar'>
+        <img src={social} alt='workImg' className="workImg"/>
+        
+        <div className='workText'>
+            <h2>Social Media Web Application</h2>
+            <p>A web application built using React, Redux, and Java Spring Boot, enabling users to share posts, interact, and connect seamlessly. The application offers functionalities such as creating, liking, and commenting on posts, as well as secure image and video uploads using Cloudinary. It features dynamic follow/unfollow capabilities and secure JWT-based authentication for user accounts. </p>
+            <br/>
+            <p><strong>Tech Stack:</strong><br/>
+Backend: Java Spring Boot, REST API <br/>
+Frontend: React, Redux <br/>
+Database: MySQL<br/>
+Other Technologies: JavaScript, Tailwind CSS<br/>
+Development Tools: Node.js, Visual Studio Code, SpringToolSuite, GitHub</p>
+<div class = "buttons">
+<a href="https://github.com/vallabhpatil777/SocialMedia-App-Java-JavaScript-React" rel="noreferrer" target="_blank" className="githubButton">
+          View on GitHub
         </a>
         </div>
         </div>
